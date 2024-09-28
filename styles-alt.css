@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+/* Apply fonts to different elements */
+body {
+    font-family: 'Roboto', sans-serif; /* Main text font */
+    background-color: mintcream;
+    color: #2c3e50;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif; /* Heading font */
+    color: #2c3e50;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 900px;  /* Set the maximum width */
+    margin: 0 auto;     /* Center the body horizontally */
+    padding: 0 20px;    /* Add padding so content doesn't touch the sides */
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+    line-height: 1.5;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px; /* Add some space between the logo and the h1 */
+}
+
+.founders-photo {
+    max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+    height: auto;    /* Maintains the aspect ratio */
+    display: block;  /* Optional: Removes extra space at the bottom of the image */
+    margin: 0 auto;  /* Optional: Centers the image within its parent element */
+}
